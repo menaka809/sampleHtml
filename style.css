@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  margin-top: 20px;
+  line-height: 1.5;
+}
+.container {
+  width: 800px;
+  margin: auto;
+  border: 4px solid black;
+  position: relative;
+}
+h2 {
+  background-color: azure;
+  padding: 10px;
+  text-align: center;
+}
+.product-detail {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.price {
+  font-weight: bold;
+  font-size: 18px;
+}
+.shipping {
+  color: gray;
+}
+a:link,
+a:visited {
+  color: rgb(138, 30, 214);
+  text-decoration: none;
+}
+a:hover {
+  color: #e71818;
+  text-decoration: underline;
+}
+li {
+  list-style: square;
+}
+.btn-cart {
+  width: 100%;
+  background-color: black;
+  color: aliceblue;
+  margin: 0;
+  height: 40px;
+  cursor: pointer;
+  border-top: 4px solid black;
+}
+.btn-cart:hover {
+  color: #000;
+  background-color: #fff;
+}
+.footer {
+  margin-bottom: 0;
+}
+p {
+  margin-bottom: 20px;
+}
+.information {
+  margin-bottom: 15px;
+  display: inline-block;
+}
+.sale {
+  background-color: rgb(247, 51, 51);
+
+  padding: 7px 15px;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: -20px;
+  margin-left: -30px;
+  text-transform: uppercase;
+}
+.color {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  display: inline-block;
+  margin-right: 10px;
+}
+.cl1 {
+  background-color: blue;
+}
+.cl2 {
+  background-color: brown;
+}
+.cl3 {
+  background-color: chartreuse;
+}
+.cl4 {
+  background-color: deeppink;
+}
+.cl5 {
+  background-color: khaki;
+}
+.cl6 {
+  background-color: lightskyblue;
+}
